@@ -32,6 +32,8 @@
     <Compile Include="app.js" />
     <Compile Include="routes\index.js" />
     <Compile Include="routes\login.js" />
+    <Content Include="DataBase\KMS.ldf" />
+    <Content Include="DataBase\KMS.mdf" />
     <Content Include="package.json" />
     <Content Include="public\stylesheets\main.css" />
     <Content Include="public\stylesheets\Master.css" />
@@ -41,6 +43,7 @@
     <Content Include="views\error.pug" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="DataBase\" />
     <Folder Include="public\" />
     <Folder Include="public\images\" />
     <Folder Include="public\javascripts\" />
